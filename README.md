@@ -46,3 +46,10 @@ Things you may want to cover:
         IDについてはテーブル内で重複することを禁止する
     - INDEX
         検索速度を早くするために索引を作成する
+
+## Gem
+    Rubyのライブラリ管理ツール
+### devise
+    - ログイン機能やユーザ登録機能を簡単に実装できる
+    - ログインに必要なユーザ情報を保存テーブルを自動的に作成
+    - devise独自でモデル名を作成する(rails g devise modelname)
