@@ -53,3 +53,9 @@ Things you may want to cover:
     - ログイン機能やユーザ登録機能を簡単に実装できる
     - ログインに必要なユーザ情報を保存テーブルを自動的に作成
     - devise独自でモデル名を作成する(rails g devise modelname)
+    - ログイン認証が成功した場合、config/routes.rb内で設定されているrootパスへリダイレクトされます。
+
+
+
+## User
+## PostImage(画像投稿)
