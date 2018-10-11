@@ -49,6 +49,7 @@ Things you may want to cover:
 
 ## Gem
     Rubyのライブラリ管理ツール
+    Gemfileに追加後、bundle install
 ### devise
     - ログイン機能やユーザ登録機能を簡単に実装できる
     - ログインに必要なユーザ情報を保存テーブルを自動的に作成
@@ -59,3 +60,9 @@ Things you may want to cover:
 
 ## User
 ## PostImage(画像投稿)
+### refile: ファイルアップロード用gem
+### refile-mini_magick: アップロードした画像のリサイズを簡単に実装
+
+## routes.rb
+    resources : ルーティングを自動で生成
+    only : ルーティングを絞る
