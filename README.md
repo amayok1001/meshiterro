@@ -55,6 +55,7 @@ Things you may want to cover:
     - ログインに必要なユーザ情報を保存テーブルを自動的に作成
     - devise独自でモデル名を作成する(rails g devise modelname)
     - ログイン認証が成功した場合、config/routes.rb内で設定されているrootパスへリダイレクトされます。
+    - user_signed_inログイン状態はtrue
 
 
 
