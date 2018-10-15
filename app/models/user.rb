@@ -8,6 +8,8 @@ class User < ApplicationRecord
   has_many :post_comments, dependent: :destroy
   has_many :favorites, dependent: :destroy
   # dependent: :destroyはhas_manyで使えるオプション
+
+  attachment :profile_image
 end
 
 # recoverable:パスワードリセット
